@@ -1,3 +1,50 @@
 body{
-    
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 5;
+    padding: 0;
 }
+
+.content{
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.dish{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipes {
+    display: flex;
+    justify-content: center;
+}
+
+.ingredients{
+    display: flex;
+    justify-content: center;
+}
+
+.ingredients-first,
+.ingredients-second {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.instructions li{
+    padding: 3px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin: 20px;
+}
+
+
